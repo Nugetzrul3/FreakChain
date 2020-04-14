@@ -1,11 +1,44 @@
-FreakChain Core integration/staging tree
+
+
+### FreakChain 
+
+<img src="https://i.imgur.com/a7dzshC.png">
+
+## Important Links
+
+  * Block explorer https://freakchain.freakhouse.dev
+  * Website https://freakhouse.dev/freakchain
+  * Paper Wallet https://paperwallet.freakhouse.dev/?currency=freakchain
+  * Mining Pool https://pool.freakhouse.dev
+  * Twitter https://twitter.com/thefreakchain
+  * Discord channel https://discordapp.com/invite/98eWYj2
+  * Reddit https://www.reddit.com/r/FreakChain/
+  * Telegram https://t.me/freakchain
+
+## FreakChain Specifications
+
+```
+Name: FreakChain
+Ticker: FREAK
+Maturity: 6 Blocks
+POW Algo: Scrypt
+POS: 5% APR
+Port: 15555
+Rpcport: 16555  
+Max Supply: 1 Billion
+POW Block Reward: 300 FREAK
+POW Last Block: 1 million
+
+```
+
+## FreakChain Core integration/staging tree
 =====================================
 
 Copyright (c) 2009-2012 Bitcoin Developers  
 Copyright (c) 2012-2014 NovaCoin Developers 
 Copyright (c) 2020- FreakChain Developers
 
-What is FreakChain?
+## What is FreakChain?
 ----------------
 
 FreakChain is an experimental new digital currency that enables instant payments to
@@ -19,24 +52,13 @@ the Proof-of-Work (PoW) hash algorithm. After the initial premine was done, the 
 quickly moved to Proof-of-Stake (PoS) mining.
 
 
-About FreakChain
------------------
-Port: 15555
-Rpc Port: 15556
-Max Supply: 1.000.000.000
-Premine: 5% (50.000.000)
-PoS APR: 5%
-PoW block Reward: 300
-PoW end block: 500.000
-
-
-License
+## License
 -------
 
 FreakChain is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
-Development process
+## Development process
 -------------------
 
 Developers work in their own trees, then submit pull requests when they think
@@ -57,7 +79,7 @@ The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/freakcoderz/FreakChain/tags) are created
 regularly to indicate new official, stable release versions of Bitcoin.
 
-Testing
+## Testing
 -------
 
 Testing and code review is the bottleneck for development; we get more pull
@@ -82,7 +104,7 @@ Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
 See https://github.com/bitcoin/QA/ for how to create a test plan.
 
-Translations
+## Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
