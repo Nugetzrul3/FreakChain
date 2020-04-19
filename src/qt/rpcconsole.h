@@ -63,15 +63,4 @@ private:
     void startExecutor();
 };
 
-/** Switch to info tab and show */
-    void showInfo();
-    /** Switch to console tab and show */
-    void showConsole();
-    /** Switch to network tab and show */
-    void showNetwork();
-    /** Switch to peers tab and show */
-    void showPeers();
-    /** Open external (default) editor with npw.conf */
-    void showConfEditor();
-
 #endif // RPCCONSOLE_H
