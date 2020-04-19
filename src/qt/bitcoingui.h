@@ -95,7 +95,10 @@ private:
     QAction *lockWalletAction;
     QAction *aboutQtAction;
     QAction* openInfoAction;
-    QAction *openRPCConsoleAction;
+    QAction* openRPCConsoleAction;
+    QAction* openNetworkAction;
+    QAction* openPeersAction;
+    QAction* openConfEditorAction;
 
     QAction *twitterAction;
     QAction *discordAction;
