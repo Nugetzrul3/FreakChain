@@ -489,4 +489,3 @@ void RPCConsole::on_btnClearTrafficGraph_clicked()
 {
     ui->trafficGraph->clear();
 }
- 9  src/qt/rpcconsole.h 
