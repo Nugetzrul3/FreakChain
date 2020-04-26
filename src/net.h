@@ -297,8 +297,8 @@ private:
     // Network usage totals
     static CCriticalSection cs_totalBytesRecv;
     static CCriticalSection cs_totalBytesSent;
-    static uint64 nTotalBytesRecv;
-    static uint64 nTotalBytesSent;
+    static uint64_t nTotalBytesRecv;
+    static uint64_t nTotalBytesSent;
 
     CNode(const CNode&);
     void operator=(const CNode&);
@@ -689,11 +689,11 @@ public:
     void copyStats(CNodeStats &stats);
 
     // Network stats
-    static void RecordBytesRecv(uint64 bytes);
-    static void RecordBytesSent(uint64 bytes);
+    static void RecordBytesRecv(uint64_t bytes);
+    static void RecordBytesSent(uint64_t bytes);
 
-    static uint64 GetTotalBytesRecv();
-    static uint64 GetTotalBytesSent();
+    static uint64_t GetTotalBytesRecv();
+    static uint64_t GetTotalBytesSent();
 };
 
 inline void RelayInventory(const CInv& inv)
