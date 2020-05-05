@@ -17,7 +17,7 @@ files:
 - "db-4.8.30.NC.tar.gz"
 - "miniupnpc-1.6.tar.gz"
 - "zlib-1.2.7.tar.gz"
-- "libpng-1.5.9.tar.gz"
+- "libpng-1.6.37.tar.gz"
 - "qrencode-3.2.0.tar.bz2"
 script: |
   #
@@ -50,8 +50,8 @@ script: |
   make -f win32/Makefile.gcc PREFIX=i586-mingw32msvc- $MAKEOPTS
   cd ..
   #
-  tar xzf libpng-1.5.9.tar.gz
-  cd libpng-1.5.9
+  tar xzf libpng-1.6.37.tar.gz
+  cd libpng-1.6.37
   ./configure -disable-shared CC=i586-mingw32msvc-cc AR=i586-mingw32msvc-ar STRIP=i586-mingw32msvc-strip RANLIB=i586-mingw32msvc-ranlib OBJDUMP=i586-mingw32msvc-objdump LD=i586-mingw32msvc-ld LDFLAGS="-L../zlib-1.2.7/" CFLAGS="-I../zlib-1.2.7/"
   make $MAKEOPTS
   cd ..
